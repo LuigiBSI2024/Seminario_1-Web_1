@@ -5,8 +5,8 @@
         <meta charset="utf-8"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Listen</title>
-        <link rel="icon" href="images/logo-index.png" type="image/png">
-        <link href="Site/css/style.css" rel="stylesheet"/>
+        <!-- <link rel="icon" href="images/logo-index.png" type="image/png"> -->
+        <link href="./css/styles.css" rel="stylesheet"/>
     </head>
 
     <body>
@@ -20,7 +20,7 @@
             </nav>
 
             <figure>
-                <img src="images/logo-index.png" alt="Logo do site Listen" />
+                <!-- <img src="images/logo-index.png" alt="Logo do site Listen" /> -->
             </figure>
 
         </header>
@@ -50,7 +50,8 @@
                 
         </footer>
 
-        <script src="../reactjs/index.js"></script>
+        <script type="module" src="reactjs/index.js"></script>
+        <!-- O type="module" acima, carrega o JS React no html. Type é um atributo da tag script que informa qual tipo de conteúdo está sendo carregado. -->
 
         <!--
             Os dois pontos retornam uma casa antes do endereço da pasta, neste caso uma casa antes da pasta "reactjs".

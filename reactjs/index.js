@@ -7,7 +7,7 @@ import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
 import "../css/styles.css";
 
-import App from "./functions";
+import App from "./funct";
 
 const root = createRoot(document.getElementById("root"));
 root.render(
