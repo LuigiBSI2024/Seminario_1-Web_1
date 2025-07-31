@@ -1,63 +1,65 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog sobre React JS</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header>
+    <h1>Blog sobre ReactJS</h1>
+    <p>Aprenda os conceitos fundamentais do React</p>
+  </header>
+
+  <div class="container">
+    <h2>📌 O que é React?</h2>
+    <p>
+      ReactJS é a biblioteca JavaScript mais popular para construção de interfaces de usuário modernas. Desenvolvida pelo Facebook, ela revolucionou a forma como criamos aplicações web ao introduzir componentes reutilizáveis e um modelo de programação declarativo. <br>
+    </p>
+
+    <h2>🎯 Conectando ReactJS com HTML</h2>
+
+    <p>todo aplicativo React começa com um arquivo HTML simples que serve como contêiner:</p>
+    <img src="images/root.png" alt="root" width="800">
+
+    <h2>⚛️ Exemplo de um index.jsx</h2>
+    <p>JSX é uma extensão de sintaxe que permite escrever HTML dentro do JavaScript. </p>
+    <img src="images/exemplojsx.png" alt="exemplo" width="800">
+
+    <p>É transformado em chamadas React.createElement() durante a compilação.</p>
+
+    <h2>🧩 O que são hooks?</h2>
+    <p>Hooks são funções especiais do React que permitem usar funcionalidades como estado, efeitos colaterais, referências.</p>
+    <img src="images/thehooks.png" alt="hooks" width="600">
+
+    <p><b>🧠 O que é state (estado) no React?</b></p>
+    <p>
+     um objeto JavaScript que armazena dados que podem mudar durante o ciclo de vida de um componente.Ou seja, informações que mudan durante a execução da aplicação.</p>
+    <p><b>Exemplo Minimalista de useState em React:</b></p>
+    <img src="images/useState_highlighted.png" alt="usestate" width="600">
+    <p></p><br>
+    <b>Explicação:</b><br>
     
-    <head>
-        <meta charset="utf-8"/>
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Listen</title>
-        <!-- <link rel="icon" href="images/logo-index.png" type="image/png"> -->
-        <link href="./css/styles.css" rel="stylesheet"/>
-    </head>
+    <b>useState(0) </b>→ define o valor inicial do estado como 0.<br>
 
-    <body>
-        <header>
-            
-            <h1>Listen</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Listen</a></li>
-                </ul>
-            </nav>
+    <b>contador</b> → é o valor atual do estado.  <br>
 
-            <figure>
-                <!-- <img src="images/logo-index.png" alt="Logo do site Listen" /> -->
-            </figure>
+    <b>setContador </b>→ é a função usada para atualizar esse valor. <br>
 
-        </header>
+    <b>onClick={aumentar} </b>→ dispara a função aumentar ao clicar no botão. 
 
-        <main>
+    <p>Toda vez que o estado muda com setContador, o React re-renderiza o componente com o novo valor.</p>
 
-        <p>
-            Converse com qualquer um! <br> 
-            Qualquer tipo de extremo desrepeito, mensagem incriminatória ou abuso verbal resultará na exclusão ou punição da(s) conta(s) envolvida(s).
-        </p>
+    <h2>🌐 React Router</h2>
+    <p>
+    React Router é uma biblioteca de roteamento usada com ReactJS para criar SPAs (Single-PageApplications), onde você pode navegar entre "páginas" sem recarregar o site.
+    Em vez de ir para outra página HTML, o React troca componentes com base na URL atual. 
+    </p>
 
-        <div id="root"></div>
 
-        </main>
 
-        <footer>
-            
-            <p>Autores: Luigi Aranha de Andrade, ... <br> Alunos da turma: BSI 2024 <br> Emails para contato Contato: turbotastico@hotmail.com</p>
-            
-            <a href="https://www.instagram.com/Inexistente" target="_blank" rel="noopener noreferrer">
-                <img src="../images/250px-Instagram_logo_2022.svg.webp" alt="Instagram" style="width: 40px; height: 40px;">
-            </a>
-            
-            <a href="https://www.facebook.com/Inexistente" target="_blank" rel="noopener noreferrer">
-                <img src="../images/250px-2023_Facebook_icon.svg.webp" alt="Facebook" style="width: 40px; height: 40px;">
-            </a>
-                
-        </footer>
 
-        <script type="module" src="src/index.jsx"></script>
-        <!-- O type="module" acima, carrega o JS React no html. Type é um atributo da tag script que informa qual tipo de conteúdo está sendo carregado. -->
-
-        <!--
-            Os dois pontos retornam uma casa antes do endereço da pasta, neste caso uma casa antes da pasta "reactjs".
-            Autor deste comentário: Luigi Aranha.
-        -->
-
-    </body>
-
+  </div>
+</body>
 </html>
