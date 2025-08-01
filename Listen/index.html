@@ -55,7 +55,49 @@
     <p>
     React Router é uma biblioteca de roteamento usada com ReactJS para criar SPAs (Single-PageApplications), onde você pode navegar entre "páginas" sem recarregar o site.
     Em vez de ir para outra página HTML, o React troca componentes com base na URL atual. 
-    </p>
+
+    <pre><code>
+      import React from 'react';
+      import logo from './logo.svg';
+      import './App.css';
+      import { BrowserRouter as Router, Route, Switch, Link } from 'react-router-dom';
+      import Home from './components/Home';
+      import Services from './components/Services';
+      import About from './components/About';
+      import Contact from './components/Contact';
+
+      function App() {
+        return (
+          &lt;Router&gt;
+
+            &lt;div&gt;
+              &lt;h2&gt;React Router Tutorial for Beginners&lt;/h2&gt;
+
+              &lt;nav&gt;
+                &lt;ul&gt;
+                  &lt;li&gt;&lt;Link to='/'&gt; Home &lt;/Link&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;Link to='/contact'&gt;Contact&lt;/Link&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;Link to='/about'&gt;About&lt;/Link&gt;&lt;/li&gt;
+                  &lt;li&gt;&lt;Link to='/services'&gt;Services&lt;/Link&gt;&lt;/li&gt;
+                &lt;/ul&gt;
+              &lt;/nav&gt;
+
+              &lt;Switch&gt;
+                &lt;Route path="/" exact component={Home} /&gt;
+                &lt;Route path="/contact" component={Contact} /&gt;
+                &lt;Route path="/about" component={About} /&gt;
+                &lt;Route path="/services" component={Services} /&gt;
+              &lt;/Switch&gt;
+
+            &lt;/div&gt;
+
+          &lt;/Router&gt;
+        );
+      }
+
+    export default App;
+  </code></pre>
+  </p>
     
   </div>
 

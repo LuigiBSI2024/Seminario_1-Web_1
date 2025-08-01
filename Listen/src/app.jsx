@@ -21,7 +21,7 @@ export function BlogLocal() {
   }, []);
 
   // Atualiza o localStorage sempre que posts mudar
-  useEffect(() => {
+  useEffect(() => { //O useEffect só é acionado quando a versão passada de algo declarado é diferente do valor atual.
     localStorage.setItem('meusPosts', JSON.stringify(posts));
   }, [posts]);
 
@@ -44,7 +44,7 @@ export function BlogLocal() {
         rows={5}
         style={{ width: '100%' }}
         value={texto}
-        onChange={(e) => setTexto(e.target.value)}
+        onChange={(evento) => setTexto(evento.target.value)} //O e é só o nome da variável que representa o evento passado automaticamente pelo React (e pelo DOM, no caso de JS puro).
         placeholder="Escreva algo..."
       />
       <button onClick={publicarPost} style={{ marginTop: '10px' }}>
@@ -63,7 +63,3 @@ export function BlogLocal() {
     </div>
   );
 }
-
-
-
-
