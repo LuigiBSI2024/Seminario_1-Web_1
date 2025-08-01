@@ -44,3 +44,9 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
 - - Informação
 - - - Para que o "npm run dev" funcione ao inserir no terminal bash, entre primeiro o comando "cd Listen" para depois inserir o "npm run dev"
 
+- - Caso seja executado localmente no computador:
+- - - Instale o Node.js (https://nodejs.org/)
+- - - Instale as dependências do projeto com:
+- - - - npm install
+- - - Instale o Vite localmente (se não estiver nas dependências):
+- - - - npm install vite --save-dev
