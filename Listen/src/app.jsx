@@ -1,13 +1,5 @@
 import { useState, useEffect } from 'react';
 
-function Greeting() {
-  return <h2>Hi there</h2>;
-}
-
-export default function App() {
-  return <Greeting />;
-}
-
 export function BlogLocal() {
   const [texto, setTexto] = useState('');
   const [posts, setPosts] = useState([]);
