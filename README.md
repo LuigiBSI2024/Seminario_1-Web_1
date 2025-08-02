@@ -43,9 +43,10 @@ Neste projeto será desenvolvido uma página que lide com a inserção de múlti
     - cd Listen (ou outro nome escolhido anteriormente ao nomear o projeto. É necessário entrar neste diretório ao pressionar enter para o "npm run dev" funcionar.)
 
         - npm run dev
+        - (Digite "o" e pressione "enter", assim abrirá uma página ativa)
 
 - Informação
-    - Para que o "npm run dev" funcione ao inserir no terminal bash, entre primeiro o comando "cd Listen" para depois inserir o "npm run dev"
+    - Para que o "npm run dev" funcione ao inserir no terminal bash, entre primeiro o comando "cd Listen" para depois inserir o "npm run dev" e insira "o" + "enter" para abrir uma página ativa 
 
 - Caso seja executado localmente no computador:
     - Instale o Node.js (https://nodejs.org/)
@@ -60,20 +61,24 @@ Neste projeto será desenvolvido uma página que lide com a inserção de múlti
 - No "index.jsx estruramos como seria a renderização dessa página e importamos os itens (vindos de "app.jsx") e bibliotecas necessárias
 - No "index.jsx" foi importado as seguintes bibliotecas: 
     - import { StrictMode } from "react";
-    - import { createRoot } from "react-dom/client";
+    - import { createRoot } from "react-dom client";
     - import "../css/styles.css";
     - import { BlogLocal } from "./app";
 
     - Além de declarado e preenchido uma variável que irá inserir o root no final do "index.html"
         - const root = createRoot(document.getElementById("root"));
 
-        - /* Infelizmente, teria que ter um banco de dados ou algo que armazene os assuntos, caso contrário não há motivo para colocar o "<BlogLocal></BlogLocal>" entre os StrictMode. */
+        - root.render( <StrictMode> <BlogLocal><BlogLocal> </StrictMode> ); //Coloquei este código em uma única linha.
+    
+    - O "index.jsx" está pronto, será necessário criar as funções no app.jsx e exportá-las para que o "index.jsx" possa usá-las e renderizá-las no final da página
 
-        - root.render(
-        <StrictMode>
-            <BlogLocal></BlogLocal> 
-        </StrictMode>
-        );
+    - O "app.jsx" importará somente: import { useState, useEffect } from 'react'; // Sempre ao importar, coloque todas as importações no cabeçalho do arquivo
+
+    - Com isso foi feito um código usando somente essa biblioteca e os recurso padrão fornecidos pelo React
+
+    - Se tudo foi feito corretamnete a sua página será renderizada junto do React implementado nela
+
+        - Dessa fo-rma aqui: ![Seminario](Listen/images/seminario_final.png)
 
 ## Bibliografia
 - https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
