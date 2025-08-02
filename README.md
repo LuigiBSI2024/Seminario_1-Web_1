@@ -80,6 +80,8 @@ Neste projeto será desenvolvido uma página que lide com a inserção de múlti
 
         - Dessa forma aqui: ![Seminario](Listen/images/seminario_final.png)
 
+        - Informação sobre a estrutura das pastas: ![OrdemPastas](Listen/images/Estrutura_das_pastas.png)
+
 ## Bibliografia
 - https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
 
