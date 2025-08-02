@@ -14,7 +14,8 @@ const root = createRoot(document.getElementById("root"));
 entre os StrictMode. */
 
 root.render(
-  <StrictMode> 
+  <StrictMode>
+    <BlogLocal></BlogLocal> 
   </StrictMode>
 );
 

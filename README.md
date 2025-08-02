@@ -56,3 +56,7 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
 
 ## Bibliografia
 - https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
+
+- https://youtu.be/NhUr8cwDiiM?si=fCe3Os8jNjlj46cr
+
+- Auxílio de IAs (como ChatGPT e entre outras)
