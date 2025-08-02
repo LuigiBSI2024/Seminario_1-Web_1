@@ -1,5 +1,5 @@
 # Seminario_1-Web_1
-Tentarei criar uma página que lide com a inserção de múltiplos dados e o carregamento deles.
+Neste projeto será desenvolvido uma página que lide com a inserção de múltiplos dados e o carregamento deles. Será uma única página com um espaço para um seção de comentários e respostas entre o autor e os leitores da página.
 
 # Autores
 - Luigi Aranha
@@ -53,6 +53,27 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
         - npm install
         - Instale o Vite localmente (se não estiver nas dependências):
         - npm install vite --save-dev
+
+## Desenvolvimento e Codificação
+- Primeiramente escrevemos uma página simples com o próprio html e css padrão
+- Ao finalizar inseriu-se a referência de um arquivo .jsx a ser carregado nela, nesse caso: "<script type="module" src="src/index.jsx"></script>"
+- No "index.jsx estruramos como seria a renderização dessa página e importamos os itens (vindos de "app.jsx") e bibliotecas necessárias
+- No "index.jsx" foi importado as seguintes bibliotecas: 
+    - import { StrictMode } from "react";
+    - import { createRoot } from "react-dom/client";
+    - import "../css/styles.css";
+    - import { BlogLocal } from "./app";
+
+    - Além de declarado e preenchido uma variável que irá inserir o root no final do "index.html"
+        - const root = createRoot(document.getElementById("root"));
+
+        - /* Infelizmente, teria que ter um banco de dados ou algo que armazene os assuntos, caso contrário não há motivo para colocar o "<BlogLocal></BlogLocal>" entre os StrictMode. */
+
+        - root.render(
+        <StrictMode>
+            <BlogLocal></BlogLocal> 
+        </StrictMode>
+        );
 
 ## Bibliografia
 - https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
