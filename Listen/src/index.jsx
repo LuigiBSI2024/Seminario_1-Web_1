@@ -9,11 +9,15 @@ import "../css/styles.css";
 import { BlogLocal } from "./app";
 
 const root = createRoot(document.getElementById("root"));
+
+/* Infelizmente, teria que ter um banco de dados ou algo que armazene os assuntos, caso contrário não há motivo para colocar o "<BlogLocal></BlogLocal>"
+entre os StrictMode. */
+
 root.render(
-  <StrictMode>
-    <BlogLocal/>
+  <StrictMode> 
   </StrictMode>
 );
+
 
 
 /* Acima deste comentário será usado recursos Reactjs
