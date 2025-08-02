@@ -34,7 +34,7 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
     - npm install
     - npm run dev
 
-    - O seu projeto está pronto agora crie arquivos em seu devido lugar em sua nova pasta, neste caso ** "Listen" **
+    - O seu projeto está pronto agora crie arquivos em seu devido lugar em sua nova pasta, neste caso "Listen"
 
     - Site para justificar a necessidade de baixar essa ferramenta: ** https://react.dev/learn/build-a-react-app-from-scratch **
 
