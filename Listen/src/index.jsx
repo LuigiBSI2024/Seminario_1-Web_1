@@ -8,8 +8,6 @@ import { createRoot } from "react-dom/client";
 import "../css/styles.css";
 import { BlogLocal } from "./app";
 
-import App from "./app";
-
 const root = createRoot(document.getElementById("root"));
 root.render(
   <StrictMode>
