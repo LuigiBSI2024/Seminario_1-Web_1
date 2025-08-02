@@ -1,5 +1,5 @@
 # Seminario_1-Web_1
-Neste projeto será desenvolvido uma página que lide com a inserção de múltiplos dados e o carregamento deles. Será uma única página com um espaço para um seção de comentários e respostas entre o autor e os leitores da página.
+Neste projeto será desenvolvido uma página que lide com a inserção de múltiplos dados e o carregamento deles. Será uma única página com um espaço para um seção de comentários e respostas entre o autor e os leitores da página. O projeto está em rascunho, o banco de dados será necessário para que o Blog seja realmente funcional e dinâmico.
 
 # Autores
 - Luigi Aranha
