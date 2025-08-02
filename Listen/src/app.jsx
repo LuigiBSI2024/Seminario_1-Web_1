@@ -33,14 +33,8 @@ export function BlogLocal() {
       }))
     };
 
-    const blob = new Blob([JSON.stringify(posts_salvos, null, 2)], {
-      type: "application/json"
-    });
-
     // Para simular o salvamento, usaremos localStorage com nome personalizado
     localStorage.setItem('post_salvo_blob', JSON.stringify(posts_salvos));
-
-    // OU: se quiser salvar o blob como arquivo, precisa usar download com <a> e URL.createObjectURL
   }
 
   // Carrega posts salvos ao iniciar
