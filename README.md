@@ -50,3 +50,7 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
 - - - - npm install
 - - - Instale o Vite localmente (se não estiver nas dependências):
 - - - - npm install vite --save-dev
+
+## Bibliografia
+- https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
+gf
