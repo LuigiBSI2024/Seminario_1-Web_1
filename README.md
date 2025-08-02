@@ -9,27 +9,27 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
 
 
 ## Avisos
-- Para funcionar será necessário inserir este comando no terminal bash:
-    - - 
-    npm create vite@latest
-    │
-    ◇  Project name:
-    │  Listen
-    │
-    ◇  Package name:
-    │  package
-    │
-    ◇  Select a framework:
-    │  React
-    │
-    ◇  Select a variant:
-    │  JavaScript
-    │
-    ◇  Scaffolding project in /workspaces/Seminario_1-Web_1/Listen...
-    │
-    └  Done. Now run:
+- Para funcionar será necessário inserir este comando no terminal bash e responder a três perguntas:
+     
+    - npm create vite@latest
+    
+    - ◇  Project name:
+    Listen
+    
+    - ◇  Package name:
+    package
+    
+    - ◇  Select a framework:
+    React
+    
+    - ◇  Select a variant:
+    JavaScript
+    
+    - ◇  Scaffolding project in /workspaces/Seminario_1-Web_1/Listen...
+    
+    -Done. Now run:
 
-- - - Insira este três comandos em sequência
+- Insira este três comandos em sequência
     cd Listen
     npm install
     npm run dev 
@@ -53,4 +53,3 @@ Tentarei criar uma página que lide com a inserção de múltiplos dados e o car
 
 ## Bibliografia
 - https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
-gf
