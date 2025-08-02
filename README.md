@@ -78,7 +78,7 @@ Neste projeto será desenvolvido uma página que lide com a inserção de múlti
 
     - Se tudo foi feito corretamnete a sua página será renderizada junto do React implementado nela
 
-        - Dessa fo-rma aqui: ![Seminario](Listen/images/seminario_final.png)
+        - Dessa forma aqui: ![Seminario](Listen/images/seminario_final.png)
 
 ## Bibliografia
 - https://www.javaguides.net/2020/09/react-router-step-by-step-tutorial.html
